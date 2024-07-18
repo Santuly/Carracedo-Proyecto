@@ -1,0 +1,1497 @@
+
+
+
+
+body { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+    
+    
+
+header {
+    background-image: url(../pictures/fondo.jpg); 
+    align-items: center;
+    height: auto;
+    width: auto;
+
+
+    
+}
+
+.nav-completo {
+
+    padding: 10px 0 0 0;
+}
+
+.logo-header {
+
+        margin: 5px;
+        height: 60px;
+}
+.logo-header img{
+
+    height: 60px;
+}
+
+.a-flex {
+
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+section {margin: 0;
+        padding: 0;
+        box-sizing: border-box;}
+
+
+
+
+
+
+h3 {
+
+    margin: 0;
+}
+
+
+
+.main {
+
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+    
+    }
+
+
+
+
+div.container-fluid{
+
+    display: inline-block;
+    text-align: start;
+    font-size: 10pt;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+    
+}
+
+a.navbar-brand{
+
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+    padding: 10px;
+    border-radius: 7%;
+    transition: 0.5s;
+}
+
+
+a.navbar-brand:hover {
+    color: #1f1f1f;
+    background-color: white;
+    border-radius: 50px;
+
+}
+
+img.navbar-brand{
+
+    width: 160pt ;
+    margin: 0 50px 10px 20px;
+
+}
+
+
+.boton-bst{
+
+    
+    transition: 0.5s;
+    border: none;
+    color:black;
+    padding: 0 20px 0 20px;
+    margin: 0 20px 0 0;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    border-radius: 7%;
+    background-color: white;
+    
+}
+
+
+.boton-bst:hover{
+
+    border: none;
+    color: white;
+    padding: 0 20px 0 20px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius: 50px;
+    background-color: #9d0e11ff;
+    
+}
+
+
+.h2-section1 {
+
+    text-align: center;
+    font-style: italic;
+    color: #1f1f1f;
+    font-family: "Playfair Display", serif;
+}
+
+
+
+
+.img{
+    display: flex;
+    border: solid;
+    align-items: center;
+
+}
+
+.tamaño-caja-index {
+
+    width: 170px;
+    height: 170px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+    border: white solid
+}
+
+
+h1 {margin: 0;}
+
+h2 {margin: 0;}
+
+
+.trabajo { 
+    
+display: flex;
+justify-content: center;
+text-align: center;
+font-optical-sizing: auto;
+font-family: "Playfair Display", serif;
+font-weight: 100;
+font-style: normal;
+color: white;
+padding: 10px;
+margin: 0;
+background-color: #9d0e11ff;
+font-size: 20pt;}
+
+
+.flex-main {
+
+    display: flex;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.tatuaje-1 {
+
+    
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+    gap: 10px;
+    
+    
+}
+    .img-1 {
+    
+    
+            width: 300px; 
+            height: 300px;
+            grid-row: 1;
+            grid-column: 1;
+        }
+    
+        .img-1-2{
+    
+       
+            grid-row: 2;
+            grid-column: 1;
+            width: 300px;
+            height: 300px;
+        
+         }
+        
+        
+         .img-2 {
+        
+            grid-column: 1;
+            grid-row: 3;
+            width: 300px;
+            height: 300px;
+        
+         }
+        
+    
+        
+        .img-7 {
+        
+            
+            grid-column: 2;
+            grid-row: 1 ; 
+            height: 300px;
+            width: 300px;
+        
+        }
+        
+        .img-8 {
+        
+            grid-column: 2;
+            grid-row: 2;
+            width: 300px;
+            height: 300px;
+        
+        }
+        
+        .img-9 {
+        
+            grid-column: 3;
+            grid-row: 2;
+            width: 300px;
+            height: 300px;
+            
+        }
+
+
+        .img-9-1 {
+        
+            grid-column: 4;
+            grid-row: 1;
+            width: 300px;
+            height: 300px;
+            
+        }
+
+
+        .img-10 {
+        
+            grid-column: 5;
+            grid-row: 2;
+            width: 300px;
+            height: 300px;
+            
+        }
+
+
+        .img-11 {
+        
+            grid-column: 4;
+            grid-row: 2;
+            width: 300px;
+            height: 300px;
+            
+        }
+
+
+        .img-12 {
+        
+            grid-column: 5;
+            grid-row: 1;
+            width: 300px;
+            height: 300px;
+            
+        }
+        
+        .bloque-gris{
+    
+            width: 300px;
+            height: 300px;
+    
+        }
+    
+        .tatuaje-1-bloque-gris{
+        
+            grid-column: 3;
+            grid-row: 1;
+            transition: 1.0s;
+            width: 300px;
+            height: 300px;
+            
+        }
+    
+        .tatuaje-1-bloque-gris{
+    
+            grid-column: 3;
+            grid-row: 1;
+            transition: 1.0s;
+        
+    }
+    
+    
+    .tatuaje-1-bloque-gris:hover{
+    
+        transform: scale(80%);
+        
+    
+        
+    }
+
+
+.flex {
+    display: flex;
+    height: fit-content;
+    align-items: center;
+    justify-content: space-evenly; 
+    background-color: #1f1f1f;
+    padding: 100px;
+    margin: 0;
+}
+
+    
+
+
+.cuadrado {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+
+}
+
+
+.caja2 {
+
+    width: 170px;
+    height: 170px;
+    background-color: #9d0e11ff;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    
+    
+}
+
+footer {
+    background-color: #9d0e11ff; 
+    align-items: center;
+    display: flex-end;
+    justify-content: center;
+
+
+}
+
+.main2{
+
+    padding: 20px 20px 20px 20px;
+    color: white;
+    font-size: 10pt;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    
+}
+
+
+.main2 p {
+
+    font-size: 16pt;
+    margin: 0;
+}
+
+.main2 a {
+
+    font-style: italic
+}
+
+.main2 a:hover {
+    color: #1f1f1f;
+    font-style: italic
+}
+
+.parrafo-main {
+
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-style: normal;
+    font-size: 14pt;
+}
+
+.logo-footer {
+    height: 30px
+}
+
+
+
+
+.acomodador {
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+.section-contacto {
+
+    display: inline-block;
+    margin: 10% 0 0 0
+}
+
+.h1-contacto {
+
+    font-size: 50pt;
+    display: inline-block;
+    font-family: "Playfair Display", serif;
+    margin: 0;
+
+    
+   
+}
+
+.h2-contacto {
+
+    font-size: 25pt;
+    display: inline-block;
+    font-family: "Nanum Gothic", sans-serif;
+    
+}
+
+.section-form {
+
+    display: inline-block;
+    
+}
+
+.Formulario-{
+
+    margin: 4.7cm 0 4.7cm 0;
+    display: inline-block;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+
+
+}
+
+label {
+
+    font-size: 16pt;
+    font-style: initial;
+    font-family: "Playfair Display", serif;
+    color: black;
+}
+#coment {
+
+    margin: 0 0 10px 0;
+}
+
+#submit {
+
+    margin: 0 0 2cm 0;
+}
+
+.nombre-contacto-formulario {
+
+    margin: 0 0 2cm 0;
+}
+
+
+.section-2{
+
+    background-color: #1c756b;}
+
+.block {
+
+        display: inline-block;
+    }
+
+.pic-text-nosotros {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+blockquote {
+
+    width: 500px;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+.blockquote1{
+    width: 1000px;
+    margin: 0 0 0 4.7cm;
+
+}
+
+.section-nosotros {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    
+    
+
+}
+
+.color-nosotros{
+
+        background-color: #1f1f1f;
+}
+
+.parrafo-nosotros{
+
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 350px 350px;
+    gap: 20px;
+    margin: 25px 0 50px 0;
+
+}
+
+.parrafo-nosotros img{
+
+    width: 400px;
+    height: 325px;
+
+
+}
+
+
+.p1-nosotros {
+
+    margin: 25px 0 25px 0;
+    grid-column: 1;
+    grid-row: 1;
+    
+
+}
+.p2-nosotros {
+
+    text-align: start;
+    margin: 25px 0 25px 0;
+    grid-column: 2;
+    grid-row: 1;
+
+}
+
+.span-p2{
+
+    font-weight: bold ;
+    font-size: 12pt;
+
+}
+
+
+.p3-nosotros{
+
+
+    text-align: start;
+    margin: 25px 0 25px 0;
+    grid-column: 3;
+    grid-row: 1;
+
+}
+
+
+
+
+
+
+
+span {
+    font-style: oblique;
+    font-size: 16pt;
+    margin: 0;
+}
+
+.section-sucu {
+
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px;
+
+
+}
+
+.h1-sucu {
+
+    font-size: 25pt;
+    display: block;
+    font-family: "Playfair Display", serif;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+}
+
+
+.iframe-sucu {
+
+    margin: 0;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    
+    
+    
+}
+
+
+
+.d-block{
+
+
+
+    width: 450px;
+    height: 700px;
+
+
+}
+
+
+
+/* Media Queris */
+
+@media (max-width: 1400px) {
+
+.navbar-brand {
+
+    text-decoration: none;
+    color: white;
+    font-size: 12pt;
+
+
+} 
+    
+
+    .tatuaje-1 {
+
+    
+        display: grid;
+        grid-template-columns: 200px 200px 200px 200px 200px ;
+        grid-template-rows: 200px 200px;
+        gap: 10px;
+        
+        
+    }
+        .img-1 {
+    
+    
+            width: 200px; 
+            height: 200px;
+            grid-row: 1;
+            grid-column: 1;
+        }
+    
+        .img-1-2{
+    
+       
+            grid-row: 2;
+            grid-column: 1;
+            width: 200px;
+            height: 200px;
+        
+         }
+        
+        
+         .img-2 {
+        
+            grid-column: 1;
+            grid-row: 3;
+            width: 200px;
+            height: 200px;
+        
+         }
+        
+    
+        
+        .img-7 {
+        
+            
+            grid-column: 2;
+            grid-row: 1 ; 
+            height: 200px;
+            width: 200px;
+        
+        }
+        
+        .img-8 {
+        
+            grid-column: 2;
+            grid-row: 2;
+            width: 200px;
+            height: 200px;
+        
+        }
+        
+        .img-9 {
+        
+            grid-column: 3;
+            grid-row: 2;
+            width: 200px;
+            height: 200px;
+            
+        }
+
+
+        .img-9-1 {
+        
+            grid-column: 4;
+            grid-row: 1;
+            width: 200px;
+            height: 200px;
+            
+        }
+
+
+        .img-10 {
+        
+            grid-column: 5;
+            grid-row: 2;
+            width: 200px;
+            height: 200px;
+            
+        }
+
+
+        .img-11 {
+        
+            grid-column: 4;
+            grid-row: 2;
+            width: 200px;
+            height: 200px;
+            
+        }
+
+
+        .img-12 {
+        
+            grid-column: 5;
+            grid-row: 1;
+            width: 200px;
+            height: 200px;
+            
+        }
+        
+        .bloque-gris{
+    
+            width: 200px;
+            height: 200px;
+    
+        }
+    
+        .tatuaje-1-bloque-gris{
+        
+            grid-column: 3;
+            grid-row: 1;
+            transition: 1.0s;
+            width: 200px;
+            height: 200px;
+            
+        }
+    
+        .tatuaje-1-bloque-gris{
+    
+            grid-column: 3;
+            grid-row: 1;
+            transition: 1.0s;
+        
+    }
+    
+    
+    .tatuaje-1-bloque-gris:hover{
+    
+        transform: scale(80%);
+        
+    
+        
+    }
+
+.flex {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly; 
+    background-color: #1f1f1f;
+}
+
+
+.caja2 {
+
+    width: 100px;
+    height: 100px;
+    background-color: #9d0e11ff;
+    border-radius: 100px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;}
+    
+
+.caja2 {
+
+    width: 100px;
+    height: 100px;}
+    
+        
+    .trabajo { 
+    
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-optical-sizing: auto;
+        font-family: "Playfair Display", serif;
+        font-weight: 100;
+        font-style: normal;
+        color: white;
+        background-color: #9d0e11ff;
+        font-size: 15pt;}
+
+        .main2{
+
+            padding: 10px 10px 10px 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: static;
+        
+        }
+
+
+            .main2 p{
+
+                
+                color: white;
+                font-size: 14pt;
+                font-family: "Playfair Display", serif;}
+
+            .main2 a{
+
+                
+            color: white;
+            font-size: 14pt;
+            font-family: "Playfair Display", serif;}
+
+            .parrafo-main {
+
+                color: white;
+                font-family: "Playfair Display", serif;
+                font-weight: 300;
+                font-style: normal;
+                font-size: 10pt;
+                font-style: italic;
+            }
+
+        
+}
+
+@media (max-width: 1263px) {
+
+
+    .parrafo-nosotros{
+
+        display: grid;
+        line-height: 2;
+        grid-template-columns: 400px;
+        grid-template-rows: 350px 350px 350px 350px 350px 350px;
+    
+    }
+
+    
+    .img1-nosotros{
+
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .img2-nosotros{
+
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+
+    .img3-nosotros{
+
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    div.p1-nosotros{
+
+        margin: 0;
+    }
+
+    .p1-nosotros {
+    
+        grid-column: 1;
+        grid-row: 1;
+        
+    
+    }
+    .p2-nosotros {
+    
+        grid-column: 1;
+        grid-row: 3;
+        
+    
+    }
+    
+    .span-p2{
+    
+        font-weight: bold ;
+        font-size: 12pt;
+    
+    }
+    
+    
+    .p3-nosotros{
+    
+        grid-column: 1;
+        grid-row: 5;
+
+    
+    }
+
+
+
+        .container-fluid{
+
+
+            flex-direction: column;
+            margin: 0 0 10px 0;
+
+
+        }
+
+        .d-flex{
+
+            margin: 0 0 0 20px;
+
+
+        }
+
+
+
+        .a-flex{
+
+            flex-direction: column;
+            
+
+
+        }
+
+
+
+        img.navbar-brand{
+
+            width: 160pt ;
+            margin: 10px;
+
+        
+        }
+
+
+        a.navbar-brand{
+
+            margin: 0;
+        }
+
+
+    
+        .tatuaje-1 {
+
+    
+            display: grid;
+            grid-template-columns: 200px 200px ;
+            grid-template-rows: 200px 200px 200px 200px 200px;
+            gap: 10px;
+            
+            
+        }
+            .img-1 {
+        
+        
+                width: 200px; 
+                height: 200px;
+                grid-row: 1;
+                grid-column: 1;
+            }
+        
+            .img-1-2{
+        
+           
+                grid-row: 2;
+                grid-column: 1;
+                width: 200px;
+                height: 200px;
+            
+             }
+            
+            
+             .img-2 {
+            
+                grid-column: 1;
+                grid-row: 3;
+                width: 200px;
+                height: 200px;
+            
+             }
+            
+        
+            
+            .img-7 {
+            
+                
+                grid-column: 2;
+                grid-row: 1 ; 
+                height: 200px;
+                width: 200px;
+            
+            }
+            
+            .img-8 {
+            
+                grid-column: 2;
+                grid-row: 2;
+                width: 200px;
+                height: 200px;
+            
+            }
+            
+            .img-9 {
+            
+                grid-column: 2;
+                grid-row: 3;
+                width: 200px;
+                height: 200px;
+                
+            }
+    
+    
+            .img-9-1 {
+            
+                grid-column: 1;
+                grid-row: 4;
+                width: 200px;
+                height: 200px;
+                
+            }
+    
+    
+            .img-10 {
+            
+                grid-column: 2;
+                grid-row: 5;
+                width: 200px;
+                height: 200px;
+                
+            }
+    
+    
+            .img-11 {
+            
+                grid-column: 2;
+                grid-row: 4;
+                width: 200px;
+                height: 200px;
+                
+            }
+    
+    
+            .img-12 {
+            
+                grid-column: 1;
+                grid-row: 5;
+                width: 200px;
+                height: 200px;
+                
+            }
+            
+            .bloque-gris{
+        
+                width: 200px;
+                height: 200px;
+        
+            }
+        
+            .tatuaje-1-bloque-gris{
+            
+                grid-column: 1;
+                grid-row: 3;
+                transition: 1.0s;
+                width: 200px;
+                height: 200px;
+                
+            }
+        
+            .tatuaje-1-bloque-gris{
+        
+                grid-column: 1;
+                grid-row: 3;
+                transition: 1.0s;
+            
+        }
+        
+        
+        .tatuaje-1-bloque-gris:hover{
+        
+            transform: scale(80%);
+            
+        
+            
+        }
+    .flex {
+    
+        display: flex;
+        height: fit-content;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly; 
+        background-color: #1f1f1f;
+    }
+    
+    
+    .caja2 {
+    
+        width: 100px;
+        height: 100px;
+        background-color: #9d0e11ff;
+        border-radius: 100px;
+        border-style: solid;
+        border-color: white;
+        border-width: 2px;}
+        
+    
+    .caja2 {
+    
+        width: 100px;
+        height: 100px;}
+        
+            
+        .trabajo { 
+        
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            font-optical-sizing: auto;
+            font-family: "Playfair Display", serif;
+            font-weight: 100;
+            font-style: normal;
+            color: white;
+            padding: 10px;
+            background-color: #9d0e11ff;
+            font-size: 15pt;}
+    
+            .main2{
+    
+                padding: 10px 10px 10px 10px;
+                display: flex;
+                justify-content: center;
+                align-items: center;}
+    
+    
+                .main2 p{
+    
+                    
+                    color: white;
+                    font-size: 10pt;
+                    font-family: "Playfair Display", serif;}
+    
+                .main2 a{
+    
+                    
+                color: white;
+                font-size: 10pt;
+                font-family: "Playfair Display", serif;}
+    
+                .parrafo-main {
+    
+                    color: white;
+                    font-family: "Playfair Display", serif;
+                    font-weight: 300;
+                    font-style: normal;
+                    font-size: 10pt;
+                    font-style: italic;
+                }
+    
+
+    }
+
+@media (max-width: 850px){
+
+
+
+    .parrafo-nosotros{
+
+        display: grid;
+        line-height: 2;
+        grid-template-columns: 350px;
+        grid-template-rows: 350px 350px 350px 350px 350px 350px;
+    
+    }
+
+    .nosotros-header-pic{
+
+        height: 350px;
+        width: 500px;
+        margin: 15px 0 15px 0;
+
+    }
+
+    .parrafo-nosotros img{
+        width: 350px;
+
+    }
+    
+    .img1-nosotros{
+
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .img2-nosotros{
+
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+
+    .img3-nosotros{
+
+        grid-column: 1;
+        grid-row: 6;
+    }
+
+    div.p1-nosotros{
+
+        margin: 0;
+    }
+
+    .p1-nosotros {
+    
+        grid-column: 1;
+        grid-row: 1;
+        text-align: start;
+    
+    }
+    .p2-nosotros {
+    
+        grid-column: 1;
+        grid-row: 3;
+        text-align: start;
+    
+    }
+    
+    .span-p2{
+    
+        font-weight: bold ;
+        font-size: 12pt;
+    
+    }
+    
+    
+    .p3-nosotros{
+    
+        grid-column: 1;
+        grid-row: 5;
+        text-align: start;
+    
+    }
+
+
+}
+
+
+@media (max-width: 600px) {
+
+
+    header {
+        background-image: url(../pictures/fondo.jpg); 
+        align-items: center;
+        height: fit-content;
+        width: auto;}
+
+
+
+    .flex-main {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+
+   
+
+    .tatuaje-1 {
+
+    
+        display: grid;
+        grid-template-columns: 125px 125px;
+        grid-template-rows: 125px 125px 125px 125px 125px;
+        gap: 10px;
+        
+        
+    }
+        .img-1 {
+    
+    
+            width: 125px; 
+            height: 125px;
+            grid-row: 1;
+            grid-column: 1;
+        }
+    
+        .img-1-2{
+    
+       
+            grid-row: 2;
+            grid-column: 1;
+            width: 125px;
+            height: 125px;
+        
+         }
+        
+        
+         .img-2 {
+        
+            grid-column: 1;
+            grid-row: 3;
+            width: 125px;
+            height: 125px;
+        
+         }
+        
+    
+        
+        .img-7 {
+        
+            
+            grid-column: 2;
+            grid-row: 1 ; 
+            height: 125px;
+            width: 125px;
+        
+        }
+        
+        .img-8 {
+        
+            grid-column: 2;
+            grid-row: 2;
+            width: 125px;
+            height: 125px;
+        
+        }
+        
+        .img-9 {
+        
+            grid-column: 2;
+            grid-row: 3;
+            width: 125px;
+            height: 125px;
+            
+        }
+
+
+        .img-9-1 {
+        
+            grid-column: 1;
+            grid-row: 4;
+            width: 125px;
+            height: 125px;
+            
+        }
+
+
+        .img-10 {
+        
+            grid-column: 2;
+            grid-row: 5;
+            width: 125px;
+            height: 125px;
+            
+        }
+
+
+        .img-11 {
+        
+            grid-column: 2;
+            grid-row: 4;
+            width: 125px;
+            height: 125px;
+            
+        }
+
+
+        .img-12 {
+        
+            grid-column: 1;
+            grid-row: 5;
+            width: 125px;
+            height: 125px;
+            
+        }
+        
+        .bloque-gris{
+    
+            width: 125px;
+            height: 125px;
+    
+        }
+    
+        .tatuaje-1-bloque-gris{
+        
+            grid-column: 1;
+            grid-row: 3;
+            transition: 1.0s;
+            width: 125px;
+            height: 125px;
+            
+        }
+    
+        .tatuaje-1-bloque-gris{
+    
+            grid-column: 1;
+            grid-row: 3;
+            transition: 1.0s;
+        
+    }
+    
+    
+    .tatuaje-1-bloque-gris:hover{
+    
+        transform: scale(80%);
+        
+    
+        
+    }
+
+    .flex {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly; 
+        background-color: #1f1f1f;
+}
+
+
+}
