@@ -1,0 +1,60 @@
+header{
+    background-image: url(../pictures/fondo.jpg); 
+        align-items: center;
+        height: fit-content;
+        width: auto;
+        
+        nav {
+            padding: 10px 0 0 0;
+                .a-flex {
+                    margin: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: start;
+                    
+                        a { text-decoration: none;
+                            color: white;
+                            font-size: 14pt;
+                            padding: 10px;
+                            border-radius: 7%;
+                            transition: 0.5s;
+                            }
+
+                        a:hover {
+                            color: #1f1f1f;
+                            background-color: white;
+                            border-radius: 50px;}
+                        }              
+            }
+    }
+
+    //clases Header//
+
+img.navbar-brand{
+
+    width: 160pt ;
+    margin: 0 50px 10px 20px;
+
+}
+
+.boton-bst{
+
+    
+    transition: 0.5s;
+    border: none;
+    color:black;
+    padding: 0 20px 0 20px;
+    margin: 0 20px 0 0;
+    border-radius: 7%;
+    background-color: white;
+}
+
+.boton-bst:hover{
+
+    border: none;
+    color: white;
+    padding: 0 20px 0 20px;
+    font-style: normal;
+    border-radius: 50px;
+    background-color: #9d0e11ff;
+}

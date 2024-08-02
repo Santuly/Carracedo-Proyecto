@@ -1,0 +1,59 @@
+footer {
+    background-color: #9d0e11ff; 
+    align-items: center;
+    display: flex-end;
+    justify-content: center;
+
+    .main2{
+
+        padding: 20px 20px 20px 20px;
+        color: white;
+        font-size: 10pt;
+        font-family: "Playfair Display", serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     
+    }
+
+    .main2 p {
+
+        font-size: 16pt;
+        margin: 0;
+    }
+    
+    .main2 a {
+    
+        font-style: italic
+    }
+    
+    .main2 a:hover {
+        color: #1f1f1f;
+        font-style: italic
+    }
+    
+    .parrafo-main {
+    
+        color: white;
+        font-family: "Playfair Display", serif;
+        font-style: normal;
+        font-size: 14pt;
+    }
+    
+    .logo-footer {
+        height: 30px
+    }
+    
+    
+    a.navbar-brand{
+    
+        text-decoration: none;
+        color: white;
+        font-size: 14pt;
+        padding: 10px;
+        border-radius: 7%;
+        transition: 0.5s;
+    }
+}
+
+
