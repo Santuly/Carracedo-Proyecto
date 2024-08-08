@@ -183,7 +183,7 @@
         font-style: normal;
         font-size: 14pt;
     }
-    
+
 }
 
 
@@ -386,4 +386,142 @@
         font-size: 14pt;
     }
 
+    //NOSOTROS//
+
+    .container-fluid {
+        display: flex;
+        flex-direction: column;
+        
 }
+
+
+    .a-flex{
+
+    flex-direction: column;
+    font-size: small;
+}
+
+
+ .parrafo-nosotros{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px ;
+            .p1-nosotros {
+
+                margin: 10px;
+            }
+            .p1-nosotros h1{
+                
+                font-size: 20pt;
+                text-align: center;
+
+            }
+    
+            .p1-nosotros img{
+
+                width: 325px;
+                height: 200px;
+                margin: 10px;
+                border-radius: 100%;
+
+            }
+
+            .p2-nosotros {
+
+                margin: 10px;
+                
+            }
+
+            .p2-nosotros h1{
+                
+                font-size: 20pt;
+                text-align: center;
+
+            }
+            .p2-nosotros img{
+
+                width: 325px;
+                height: 200px;
+                margin: 10px;
+                border-radius: 100%;
+
+
+            }
+
+            .p3-nosotros {
+
+                margin: 10px;
+            }
+            .p3-nosotros h1{
+                
+                font-size: 20pt;
+                text-align: center;
+
+            }
+
+            .p3-nosotros img{
+                
+                width: 325px;
+                height: 200px;
+                margin: 10px;
+                border-radius: 100%
+                
+                
+
+
+            }
+
+        }
+
+
+
+        //sucursales//
+
+        .section-sucu {
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        iframe{
+            width: 250px;
+            height: 250px;
+        }
+
+        .h1-sucu{
+
+            margin: 30px;
+        }
+
+
+        //productos//
+
+        .card2{
+
+            flex-direction: column;
+        }
+
+        .card{
+
+            margin: 50px;
+        }
+
+
+        //contacto//
+
+        .acomodador{
+
+            flex-direction: column;
+        }
+
+        .nombre-contacto-formulario {
+
+            
+
+
+        }
+    }

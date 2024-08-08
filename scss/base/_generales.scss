@@ -16,3 +16,20 @@ main {
     font-style: normal;
 
 }
+
+//extend//
+
+%flex {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+//Variables//
+
+$color-principal: #9d0e11ff ;
+$color-secundario: white;
+$color-terciario:black;
