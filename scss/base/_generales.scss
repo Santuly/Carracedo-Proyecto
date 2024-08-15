@@ -28,6 +28,16 @@ main {
 }
 
 
+//Mixing//
+
+
+@mixin tamaño(){
+    width: 600px;
+    height: 400px;
+
+}
+
+
 //Variables//
 
 $color-principal: #9d0e11ff ;

@@ -112,6 +112,7 @@ footer {
   font-family: "Playfair Display", serif;
   font-weight: 100;
   color: white;
+  background-color: #9d0e11ff;
   padding: 10px;
   margin: 0;
   font-size: 20pt; }
@@ -219,49 +220,41 @@ footer {
   font-style: normal;
   font-size: 14pt; }
 
-.parrafo-nosotros {
+.section-nosotros {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   margin: 50px; }
-  .parrafo-nosotros .p1-nosotros {
-    margin: 10px; }
-  .parrafo-nosotros .p1-nosotros h1 {
-    font-size: 20pt;
-    text-align: center; }
-  .parrafo-nosotros .p1-nosotros img {
-    width: 325px;
+  .section-nosotros .img-nosotros {
+    width: 600px;
+    height: 400px;
+    border: solid #1f1f1f;
+    transition: 0.5s; }
+  .section-nosotros .img-nosotros:hover {
+    border: solid #9d0e11ff; }
+  .section-nosotros .h1-nosotros {
+    margin: 20px; }
+  .section-nosotros .texto-nosotros {
+    position: relative;
+    width: 500px;
     height: 200px;
-    margin: 10px;
-    border-radius: 100%; }
-  .parrafo-nosotros .p2-nosotros {
-    margin: 10px; }
-  .parrafo-nosotros .p2-nosotros h1 {
-    font-size: 20pt;
-    text-align: center; }
-  .parrafo-nosotros .p2-nosotros img {
-    width: 325px;
-    height: 200px;
-    margin: 0 0 0 50px;
-    border-radius: 100%; }
-  .parrafo-nosotros .p3-nosotros {
-    margin: 10px; }
-  .parrafo-nosotros .p3-nosotros h1 {
-    font-size: 20pt;
-    text-align: center; }
-  .parrafo-nosotros .p3-nosotros img {
-    width: 325px;
-    height: 200px;
-    margin: 10px;
-    border-radius: 100%; }
+    text-align: center;
+    margin: 20px; }
+  .section-nosotros .texto-crudo {
+    position: absolute;
+    font-size: 14pt; }
 
 .acomodador {
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
   margin: 25px; }
 
 .Formulario- {
-  font-size: 15pt; }
+  font-size: 15pt;
+  margin: 50px 0 0 0; }
 
 .section-sucu {
   height: 500px;
@@ -482,61 +475,41 @@ footer {
     font-family: "Playfair Display", serif;
     font-style: normal;
     font-size: 14pt; }
-  .container-fluid {
-    display: flex;
-    flex-direction: column; }
-  .a-flex {
-    flex-direction: column;
-    font-size: small; }
-  .parrafo-nosotros {
+  .section-nosotros {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: 50px; }
-    .parrafo-nosotros .p1-nosotros {
-      margin: 10px; }
-    .parrafo-nosotros .p1-nosotros h1 {
-      font-size: 20pt;
-      text-align: center; }
-    .parrafo-nosotros .p1-nosotros img {
-      width: 325px;
+    .section-nosotros .img-nosotros {
+      width: 350px;
       height: 200px;
-      margin: 10px;
-      border-radius: 100%; }
-    .parrafo-nosotros .p2-nosotros {
-      margin: 10px; }
-    .parrafo-nosotros .p2-nosotros h1 {
-      font-size: 20pt;
-      text-align: center; }
-    .parrafo-nosotros .p2-nosotros img {
-      width: 325px;
-      height: 200px;
-      margin: 10px;
-      border-radius: 100%; }
-    .parrafo-nosotros .p3-nosotros {
-      margin: 10px; }
-    .parrafo-nosotros .p3-nosotros h1 {
-      font-size: 20pt;
-      text-align: center; }
-    .parrafo-nosotros .p3-nosotros img {
-      width: 325px;
-      height: 200px;
-      margin: 10px;
-      border-radius: 100%; }
+      border: solid #1f1f1f;
+      transition: 0.5s; }
+    .section-nosotros .img-nosotros:hover {
+      border: solid #9d0e11ff; }
+    .section-nosotros .h1-nosotros {
+      margin: 20px; }
+    .section-nosotros .texto-nosotros {
+      position: relative;
+      width: 350px;
+      height: 250px;
+      text-align: center;
+      margin: 20px; }
+    .section-nosotros .texto-crudo {
+      position: absolute;
+      font-size: 14pt; }
   .section-sucu {
-    flex-direction: column;
+    height: 500px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center; }
-  iframe {
-    width: 250px;
-    height: 250px; }
-  .h1-sucu {
-    margin: 30px; }
-  .card2 {
-    flex-direction: column; }
-  .card {
     margin: 50px; }
-  .acomodador {
-    flex-direction: column; } }
+    .section-sucu iframe {
+      width: 300px; }
+  .card2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 50px; } }
